@@ -1,0 +1,39 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+debug.log
+error.log
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (for frontend)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Database files (optional - uncomment if you don't want to track them)
+# *.db
+# *.sqlite
+# *.sqlite3

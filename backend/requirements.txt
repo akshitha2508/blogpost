@@ -1,0 +1,9 @@
+flask
+flask-sqlalchemy
+flask-cors
+flask-jwt-extended
+python-dotenv
+werkzeug
+flask-uploads
+pillow
+waitress
