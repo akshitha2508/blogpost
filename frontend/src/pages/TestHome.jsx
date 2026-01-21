@@ -3,7 +3,7 @@ import React from 'react';
 const TestHome = () => {
     return (
         <div style={{ padding: '2rem', textAlign: 'center' }}>
-            <h1>BlogSpace Test</h1>
+            <h1>Wryto Test</h1>
             <p>If you can see this, React is working!</p>
             <div style={{ 
                 padding: '1rem', 

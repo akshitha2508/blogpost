@@ -266,7 +266,7 @@ const Login = () => {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="login-hero"
                 style={{ 
-                    background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.9), rgba(139, 92, 246, 0.9)), url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)',
+                    background: 'linear-gradient(135deg, rgba(6, 182, 212, 0.9), rgba(59, 130, 246, 0.9)), url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     borderRadius: '20px',

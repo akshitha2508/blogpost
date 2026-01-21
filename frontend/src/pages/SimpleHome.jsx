@@ -147,7 +147,7 @@ const SimpleHome = () => {
                 style={{ 
                     textAlign: 'center', 
                     padding: '4rem 2rem', 
-                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                    background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
                     borderRadius: '20px',
                     color: 'white',
                     marginBottom: '3rem',
@@ -200,7 +200,7 @@ const SimpleHome = () => {
                             WebkitTextFillColor: 'transparent'
                         }}
                     >
-                        Welcome to BlogSpace
+                        Welcome to Wryto
                         <motion.span
                             animate={{ rotate: [0, 10, -10, 0] }}
                             transition={{ duration: 2, repeat: Infinity, delay: 1 }}

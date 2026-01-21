@@ -68,7 +68,7 @@ const Navbar = () => {
                         style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--primary)', fontWeight: 'bold', fontSize: '1.25rem' }}
                     >
                         <BookOpen size={24} />
-                        <span>BlogSpace</span>
+                        <span>Wryto</span>
                     </motion.div>
                 </Link>
 

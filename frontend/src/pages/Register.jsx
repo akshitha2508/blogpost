@@ -35,7 +35,7 @@ const Register = () => {
                 <div style={{ width: '100%', maxWidth: '400px' }}>
                     <div style={{ marginBottom: '2rem' }}>
                         <h2 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Create Account</h2>
-                        <p style={{ color: 'var(--text-secondary)' }}>Join BlogSpace community today</p>
+                        <p style={{ color: 'var(--text-secondary)' }}>Join Wryto community today</p>
                     </div>
 
                     {error && (

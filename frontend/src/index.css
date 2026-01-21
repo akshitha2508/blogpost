@@ -1,17 +1,51 @@
 :root {
-  --primary: #6366f1;
-  --primary-hover: #4f46e5;
-  --background: #f8fafc;
+  --primary: #06b6d4;
+  --primary-hover: #0891b2;
+  --background: #ecfeff;
+  --bg-secondary: #cffafe;
   --surface: #ffffff;
-  --text-main: #1e293b;
-  --text-secondary: #64748b;
-  --border: #e2e8f0;
+  --text-main: #164e63;
+  --text-secondary: #475569;
+  --border: #cffafe;
   --danger: #ef4444;
   --success: #22c55e;
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-sm: 0 1px 2px 0 rgb(6 182 212 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(6 182 212 / 0.1), 0 2px 4px -2px rgb(6 182 212 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(6 182 212 / 0.1), 0 4px 6px -4px rgb(6 182 212 / 0.1);
   --radius: 0.75rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
 }
 
 * {

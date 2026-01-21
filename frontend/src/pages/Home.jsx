@@ -131,13 +131,13 @@ const Home = () => {
                     marginBottom: '3rem', 
                     textAlign: 'center', 
                     padding: '4rem 2rem', 
-                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                    background: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)',
                     borderRadius: 'var(--radius)',
                     color: 'white',
                     boxShadow: 'var(--shadow-lg)'
                 }}
             >
-                <h1 style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '1rem' }}>Welcome to BlogSpace</h1>
+                <h1 style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '1rem' }}>Welcome to Wryto</h1>
                 <p style={{ fontSize: '1.25rem', opacity: 0.9, marginBottom: '2rem' }}>Discover stories, thinking, and expertise from writers on any topic.</p>
                 
                 {/* Search Bar */}
